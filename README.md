@@ -10,7 +10,6 @@ Provides easy conversion, validation, and utility functions.
 - Validate JSONL consistency
 - Extract keys from JSONL
 - Get statistics (average values, counts, etc.)
-- Stream JSONL objects with a generator
 
 ## 📦 Installation
 
