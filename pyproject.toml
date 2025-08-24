@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-  {name="Your Name", email="your@email.com"},
+  {name="dja322", email="dannyja0112@gmail.com"},
 ]
 keywords = ["json", "jsonl", "converter", "utilities"]
 classifiers = [
