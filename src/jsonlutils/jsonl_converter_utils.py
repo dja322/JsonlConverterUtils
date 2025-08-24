@@ -359,12 +359,3 @@ def convert_json_to_jsonl(input_file, output_file, data_key,
 
     return True
 
-if __name__ == "__main__":
-    convert_jsonl_to_json("example.jsonl", "converted.json", json_indent=4, jsonl_start_index=0,
-                           sort_data=True, sort_data_key="taskNo", sort_descending=False, verbose=True)
-    
-    print(check_jsonl_is_consistent("example.jsonl", print_error_messages=True))
-    print(find_all_jsonl_keys("example.jsonl", print_error_message=True))
-    print(get_average_value_of_jsonl_value("example.jsonl", "taskNo", print_error_messages=True, verbose=True))
-
-    convert_json_to_jsonl("converted.json", "reconverted.jsonl", data_key="data")
